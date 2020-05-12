@@ -1,1 +1,32 @@
 @import "bootstrap/scss/bootstrap";
+
+.navbar-default {
+  background-color: #f8f8f8;
+  border: 1px solid #e7e7e7;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 50px;
+  margin-bottom: 30px;
+  padding: 10px;
+}
+
+.navbar-default a {
+  font-size: 16px;
+  color: #777;
+}
+
+.navbar-default a:hover {
+  font-size: 16px;
+  color: black;
+}
+
+.container {
+  width: 900px;
+  padding: 15px;
+}
+
+h2 {
+  font-size: 24px;
+  color: #337ab7;
+}
