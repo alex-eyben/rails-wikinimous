@@ -1,0 +1,13 @@
+<h1>Create new article</h1>
+
+<%= form_for(@article) do |f| %>
+  <%= f.label :title %>
+  <%= f.text_field :title %>
+  <%= f.label :content %>
+  <%= f.text_field :content %>
+  <%= f.submit %>
+<% end %>
+<br>
+<br>
+<hr>
+<%= link_to "Go back to all articles", articles_path %>
